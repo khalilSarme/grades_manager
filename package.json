@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
     "postbuild": "cp dist/index.html dist/404.html",
     "deploy": "gh-pages -d dist"
   },
